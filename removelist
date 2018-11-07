@@ -1,0 +1,8 @@
+void removeNode(int index){
+	itr = Node.begin();
+	for (int i = 0; i < index; i++)
+	{
+		it++;
+	}
+	Node.remove(*itr);
+}
